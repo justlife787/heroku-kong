@@ -58,7 +58,7 @@ admin_error_log = /dev/stderr             # Path for Admin API request error
                                           # adjusted by the `log_level`
                                           # directive.
 
-plugins = bundled,hello-world-header,ndfd-xml-as-json
+plugins = bundled,hello-world-header,ndfd-xml-as-json, request-validator
                                  # Comma-separated list of plugins this node
                                  # should load. By default, only plugins
                                  # bundled in official distributions are
